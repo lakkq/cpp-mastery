@@ -1,0 +1,68 @@
+.shell {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bar {
+  width: 100%;
+  max-width: var(--workspace-width);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_mark {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1 1 0;
+}
+
+.nav_wrapper {
+  height: 50px;
+  border-radius: 20px;
+  background: var(--gradient-321);
+  border: 0.5px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 0;
+  padding: 0 40px;
+}
+
+.nav_tabs {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  font-size: 21px;
+}
+
+.nav_tab {
+  color: transparent;
+  background: var(--gradient-123);
+  -webkit-background-clip: text;
+  transition: opacity 0.2s ease;
+}
+
+.nav_tab.active {
+  color: #7b7b7b;
+  background: none;
+  -webkit-background-clip: initial;
+}
+
+.header_actions {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  flex: 1 1 0;
+}
