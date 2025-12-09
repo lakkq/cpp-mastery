@@ -3,8 +3,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  font-size: 21px;
-  height: 50px;
+  font-size: 1.3125rem;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
   text-decoration: none;
 }
@@ -14,6 +13,6 @@
 }
 
 .btn_secondary {
-  width: 129px;
+  padding: 0.8125rem 2.3125rem 0.75rem;
   background: #d9d9d9;
 }

@@ -30,7 +30,7 @@ export function Header() {
           </div>
         </div>
 
-        <div className={styles.header_actions}>
+        <div className={styles.actions}>
           <SecondaryButton>Login</SecondaryButton>
           <PrimaryButton>Start Free Trial</PrimaryButton>
         </div>

@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   margin: 0;
   background: var(--bg);
@@ -87,120 +91,6 @@ button {
 
 .bordered {
   border: 0.5px solid #ffffff;
-}
-
-.header-shell {
-  margin-top: 40px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.header-bar {
-  width: 100%;
-  max-width: var(--workspace-width);
-  display: flex;
-  align-items: center;
-}
-
-.logo-mark {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  background: #ffffff;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.nav-wrapper {
-  margin-left: 341px;
-  width: 371px;
-  height: 50px;
-  border-radius: 20px;
-  background: var(--gradient-321);
-  border: 0.5px solid #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.nav-tabs {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  font-size: 21px;
-}
-
-.nav-tab {
-  color: transparent;
-  background: var(--gradient-123);
-  -webkit-background-clip: text;
-  transition: opacity 0.2s ease;
-}
-
-.nav-tab.active {
-  color: #7b7b7b;
-  background: none;
-  -webkit-background-clip: initial;
-}
-
-.header-actions {
-  display: flex;
-  align-items: center;
-  margin-left: 166px;
-  gap: 20px;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-  font-size: 21px;
-  height: 50px;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-  text-decoration: none;
-}
-
-.btn:hover {
-  transform: translateY(-1px);
-}
-
-.btn-primary {
-  width: 225px;
-  border: 0.5px solid #ffffff;
-  background: var(--gradient-321);
-}
-
-.btn-secondary {
-  width: 129px;
-  background: #d9d9d9;
-}
-
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 215px;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-}
-
-.hero-title {
-  font-size: 48px;
-  font-weight: 400;
-}
-
-.hero-subtitle {
-  margin-top: 23px;
-  font-size: 24px;
-  font-weight: 400;
-  color: #838383;
 }
 
 .main-card {
@@ -463,17 +353,6 @@ button {
 
 .highlight {
   color: #bebebe;
-}
-
-.hero-ring {
-  position: absolute;
-  top: 120px;
-  width: 540px;
-  height: 140px;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.24) 0%, transparent 60%);
-  filter: blur(14px);
-  pointer-events: none;
-  z-index: 1;
 }
 
 .benefits {

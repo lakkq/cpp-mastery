@@ -14,55 +14,58 @@
 }
 
 .logo_mark {
-  width: 45px;
-  height: 45px;
+  width: 3.125rem;
+  height: 3.125rem;
   border-radius: 50%;
-  background: #ffffff;
+  background: #fff;
 }
 
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 0.75rem;
   flex: 1 1 0;
 }
 
+.logo_text {
+  font-size: 1.3125rem;
+}
+
 .nav_wrapper {
-  height: 50px;
   border-radius: 20px;
   background: var(--gradient-321);
-  border: 0.5px solid #ffffff;
+  border: 0.5px solid #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   flex: 0 1 0;
-  padding: 0 40px;
+  padding: 0.75rem 2.4375rem 0.6875rem;
 }
 
 .nav_tabs {
   display: flex;
   align-items: center;
-  gap: 50px;
-  font-size: 21px;
+  gap: 3.125rem;
+  font-size: 1.3125rem;
 }
 
 .nav_tab {
   color: transparent;
   background: var(--gradient-123);
-  -webkit-background-clip: text;
+  background-clip: text;
   transition: opacity 0.2s ease;
 }
 
 .nav_tab.active {
   color: #7b7b7b;
   background: none;
-  -webkit-background-clip: initial;
+  background-clip: initial;
 }
 
-.header_actions {
+.actions {
   display: flex;
   align-items: center;
-  justify-content: end;
-  gap: 20px;
+  justify-content: flex-end;
+  gap: 1.25rem;
   flex: 1 1 0;
 }

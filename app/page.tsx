@@ -1,5 +1,5 @@
 import { Header } from "../blocks/Header/Header";
-import { HeroSection } from "../components/HeroSection";
+import { HeroSection } from "../blocks/Hero/HeroSection";
 import { GlassCard } from "../components/GlassCard";
 import { Sidebar } from "../components/Sidebar";
 import { ProgramStructureSection } from "../components/ProgramStructureSection";
