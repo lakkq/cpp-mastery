@@ -1,0 +1,26 @@
+{
+    // Автоматическое исправление при сохранении
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+    },
+    
+    // Настройки Stylelint
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    
+    // Отключаем встроенный валидатор CSS
+    "stylelint.enable": true,
+    "stylelint.validate": ["css", "scss", "less"],
+    
+    // Использовать Stylelint для форматирования
+    "[css]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+    }
+}
