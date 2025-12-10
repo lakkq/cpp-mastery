@@ -8,7 +8,7 @@
   --glass-bg: rgba(78, 78, 78, 0.1);
   --glass-border-1: linear-gradient(124deg, rgba(207, 207, 207, 0.1), rgba(63, 63, 63, 0.1));
   --glass-border-2: linear-gradient(1deg, rgba(158, 158, 158, 0.65), rgba(153, 153, 153, 0.65));
-  --card-blur: blur(35px);
+  --card-blur: blur(15px);
 }
 
 *,
@@ -80,9 +80,7 @@ button {
 }
 
 .glass-surface {
-  background-color: rgba(78, 78, 78, 0.1);
-  border: 1px solid transparent;
-  background-image: var(--glass-border-1), var(--glass-border-2);
+  border: 1px solid #666666;
   background-origin: border-box;
   background-clip: padding-box, border-box, border-box;
   backdrop-filter: var(--card-blur);
@@ -94,7 +92,6 @@ button {
 }
 
 .main-card {
-  margin-top: 240px;
   width: 100%;
   max-width: 1272px;
   height: 760px;
@@ -102,26 +99,6 @@ button {
   position: relative;
   overflow: hidden;
   z-index: 3;
-}
-
-.card-wrap {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.card-halo {
-  position: absolute;
-  top: -120px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 800px;
-  height: 300px;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.02) 50%, transparent 65%);
-  filter: blur(18px);
-  pointer-events: none;
-  z-index: 2;
 }
 
 .glass-inner {

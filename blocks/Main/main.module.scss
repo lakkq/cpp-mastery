@@ -1,0 +1,17 @@
+.wrap {
+  position: relative;
+  margin-top: 240px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.hole {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  width: 78.5%;
+  max-width: 1000px;
+  height: fit-content;
+}

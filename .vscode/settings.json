@@ -1,7 +1,7 @@
 {
     // Автоматическое исправление при сохранении
     "editor.codeActionsOnSave": {
-        "source.fixAll.stylelint": true
+        "source.fixAll.stylelint": "explicit"
     },
     
     // Настройки Stylelint

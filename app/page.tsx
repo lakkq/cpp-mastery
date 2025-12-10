@@ -1,8 +1,6 @@
 import { Header } from "../blocks/Header/Header";
 import { HeroSection } from "../blocks/Hero/HeroSection";
-import { GlassCard } from "../components/GlassCard";
-import { Sidebar } from "../components/Sidebar";
-import { ProgramStructureSection } from "../components/ProgramStructureSection";
+import { Main } from "../blocks/Main/Main";
 import { BenefitsSection } from "../components/BenefitsSection";
 import { PricingSection } from "../components/PricingSection";
 import { Footer } from "../components/Footer";
@@ -13,13 +11,7 @@ export default function Home() {
       <div className="workspace">
         <Header />
         <HeroSection />
-        <div className="card-wrap">
-          <div className="card-halo" />
-          <GlassCard>
-            <Sidebar />
-            <ProgramStructureSection />
-          </GlassCard>
-        </div>
+        <Main />
         <BenefitsSection />
         <PricingSection />
         <Footer />

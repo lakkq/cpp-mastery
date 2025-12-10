@@ -19,14 +19,3 @@
   font-weight: 400;
   color: #838383;
 }
-
-.ring {
-  position: absolute;
-  top: 120px;
-  width: 540px;
-  height: 140px;
-  background: radial-gradient(ellipse at center, rgb(255 255 255 / 24%) 0%, transparent 60%);
-  filter: blur(14px);
-  pointer-events: none;
-  z-index: 1;
-}
