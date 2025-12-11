@@ -1,0 +1,17 @@
+interface BookIconProps {
+  iconColor: string;
+}
+
+export default function SearchIcon({ iconColor }: BookIconProps) {
+  return (
+    <svg
+      className="search-icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="11" cy="11" r="6" stroke={iconColor} strokeWidth="2" />
+      <path d="M15.5 15.5L20 20" stroke={iconColor} strokeWidth="2" />
+    </svg>
+  );
+}

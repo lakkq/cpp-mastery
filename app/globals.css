@@ -94,11 +94,11 @@ button {
 .main-card {
   width: 100%;
   max-width: 1272px;
-  height: 760px;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
   z-index: 3;
+  padding: 0 0 100px 0;
 }
 
 .glass-inner {
